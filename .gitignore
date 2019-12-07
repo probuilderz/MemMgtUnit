@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# NetBeans
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*.exe.stackdump
