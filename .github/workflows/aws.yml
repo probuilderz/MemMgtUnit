@@ -55,7 +55,7 @@ jobs:
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: abou-ecr-repo
+        ECR_REPOSITORY: abou-ecr-repo2
         IMAGE_TAG: ${{ github.sha }}
       run: |
         # Build a docker container and
@@ -78,5 +78,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: abou-app-service
-        cluster: abou-default-aws-clst
+        cluster: abou-aws-clst
         wait-for-service-stability: true
