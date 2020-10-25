@@ -4,6 +4,7 @@
  * Description: Static library for creation of a memory pool of POOLSIZE objects
  * 
  * Created on November 23, 2019, 8:16 PM
+ * Credit to Arpan Sen, Rahul Kardam, Published February 19, 2008
  */
 
 #ifndef MEMORYMANAGER_HPP

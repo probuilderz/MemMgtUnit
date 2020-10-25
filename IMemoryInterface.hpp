@@ -4,6 +4,7 @@
  * Description: Interface class for Memory Management
  *
  * Created on November 23, 2019, 8:13 PM
+ * Credit to Arpan Sen, Rahul Kardam, Published February 19, 2008
  */
 
 #ifndef IMEMORYINTERFACE_HPP
